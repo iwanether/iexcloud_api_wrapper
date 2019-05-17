@@ -6,9 +6,9 @@ const baseURL = "https://cloud.iexapis.com/";
 
 dotenv.config();
 
-const sk = process.env.IEXCLOUD_SECRET_KEY;
+const sk = process.env.REACT_APP_IEXCLOUD_SECRET_KEY;
 
-const apiversion = process.env.IEXCLOUD_API_VERSION;
+const apiversion = process.env.REACT_APP_IEXCLOUD_API_VERSION;
 
 const aToken = `&token=${sk}`;
 
