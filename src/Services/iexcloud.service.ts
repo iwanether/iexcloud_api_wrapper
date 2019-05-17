@@ -12,9 +12,9 @@ const sandboxURL = "https://sandbox.iexapis.com/";
 
 dotenv.config();
 
-const pk = process.env.IEXCLOUD_PUBLIC_KEY;
+const pk = process.env.REACT_APP_IEXCLOUD_PUBLIC_KEY;
 
-const apiversion = process.env.IEXCLOUD_API_VERSION;
+const apiversion = process.env.REACT_APP_IEXCLOUD_API_VERSION;
 
 const aToken = `&token=${pk}`;
 
